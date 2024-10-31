@@ -1,22 +1,23 @@
 // //write a code to dispaly multiplication of a given integer
 // //example number 9
 
-// const num = 9
-// let div= 0
-// for(let i =1 ; i<= 10; i++){
-// console.log(`${num} x ${i}`)
-// }
+const num = 9
+let div= 0
+for(let i =1 ; i<= 10; i++){
+console.log(`${num} x ${i}`)
+}
 
 // //write a code to check palindrome or not
 // //cara lopping example madam -> palindrome
 
-let str= "madami"
+let str= "madam"
 let res = ""
 
 for(let i = str.length-1 ; i >= 0; i--){
    res += str[i] 
-   console.log(res)
+   
 }
+console.log(res)
 
 if (str==res){
    console.log("palindrome")
@@ -152,7 +153,7 @@ for(let i=0 ; i<input9Array.length; i++)
 
 //Write a code that shows 1 if the input is a string, 2 if the input is a number,
 // and 3 for others data type. Example : “hello” → 1
- let input10 = {};
+ let input10 = "hello";
  let input10Type = typeof input10 
 let text = 0
 
